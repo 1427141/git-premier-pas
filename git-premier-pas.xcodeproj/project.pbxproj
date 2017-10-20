@@ -12,6 +12,7 @@
 		4BF650311F9A293C007911B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF6502F1F9A293C007911B7 /* Main.storyboard */; };
 		4BF650331F9A293C007911B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BF650321F9A293C007911B7 /* Assets.xcassets */; };
 		4BF650361F9A293C007911B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF650341F9A293C007911B7 /* LaunchScreen.storyboard */; };
+		4BF650401F9A3112007911B7 /* arbreDeGit.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BF6503F1F9A30FA007911B7 /* arbreDeGit.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4BF650321F9A293C007911B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BF650351F9A293C007911B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BF650371F9A293C007911B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BF6503F1F9A30FA007911B7 /* arbreDeGit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arbreDeGit.png; path = ../../../../../../Users/git/Downloads/arbreDeGit.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		4BF6502A1F9A293C007911B7 /* git-premier-pas */ = {
 			isa = PBXGroup;
 			children = (
+				4BF6503E1F9A30EE007911B7 /* ressources */,
 				4BF6502B1F9A293C007911B7 /* AppDelegate.swift */,
 				4BF6502D1F9A293C007911B7 /* ViewController.swift */,
 				4BF6502F1F9A293C007911B7 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				4BF650371F9A293C007911B7 /* Info.plist */,
 			);
 			path = "git-premier-pas";
+			sourceTree = "<group>";
+		};
+		4BF6503E1F9A30EE007911B7 /* ressources */ = {
+			isa = PBXGroup;
+			children = (
+				4BF6503F1F9A30FA007911B7 /* arbreDeGit.png */,
+			);
+			path = ressources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			files = (
 				4BF650361F9A293C007911B7 /* LaunchScreen.storyboard in Resources */,
 				4BF650331F9A293C007911B7 /* Assets.xcassets in Resources */,
+				4BF650401F9A3112007911B7 /* arbreDeGit.png in Resources */,
 				4BF650311F9A293C007911B7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
