@@ -14,6 +14,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("je suis la ligne 17 bruh")
         print("je suis la ligne 15") 
         print("je suis aussi la ligne 15")
         // Do any additional setup after loading the view, typically from a nib.
